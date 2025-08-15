@@ -34,9 +34,10 @@ Aplicación web desarrollada con **Angular 14** que permite gestionar tareas (CR
 ```bash
 npm install
 ng serve 
-
+```
 ### 1. Clonar el repositorio
 
 ```bash
 git clone https://github.com/tu-usuario/task-app.git
 cd task-app
+```
