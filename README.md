@@ -1,27 +1,42 @@
-# TaskApp
+# 📋 TaskApp - Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.13.
+Aplicación web desarrollada con **Angular 14** que permite gestionar tareas (CRUD) consumiendo una API REST construida con **.NET Core 8**. Esta interfaz permite a los usuarios agregar, marcar como completadas y eliminar tareas en tiempo real.
 
-## Development server
+![Angular](https://img.shields.io/badge/Angular-14-red?logo=angular)
+![.NET Core](https://img.shields.io/badge/.NET_Core-8-blue?logo=dotnet)
+![Bootstrap](https://img.shields.io/badge/CSS-SCSS-9cf)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## ✨ Características
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- ✅ Listado de tareas con estado de completitud.
+- ✅ Campo de texto y botón para agregar nuevas tareas.
+- ✅ Botón para marcar tareas como completadas.
+- ✅ Botón para eliminar tareas.
+- ✅ Interfaz limpia y responsiva.
+- ✅ Consumo de API REST (GET, POST, PUT, DELETE).
+- ✅ Persistencia en backend con SQLite (vía .NET API).
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🚀 Tecnologías utilizadas
 
-## Running unit tests
+- **Frontend**: Angular 14
+- **Framework de pruebas**: [Karma](https://karma-runner.github.io) + Jasmine
+- **Backend (API)**: .NET Core 8 Web API
+- **Base de datos**: SQLite (en memoria / archivo `tasks.db`)
+- **Control de versiones**: Git
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## 🛠️ Instalación y uso
+```bash
+npm install
+ng serve 
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### 1. Clonar el repositorio
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+git clone https://github.com/tu-usuario/task-app.git
+cd task-app
