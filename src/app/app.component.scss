@@ -1,0 +1,80 @@
+// src/app/app.component.scss
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+}
+
+.add-task {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.add-task input {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.add-task button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.add-task button:hover {
+  background-color: #0056b3;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 5px;
+}
+
+.task-item span {
+  flex: 1;
+}
+
+.task-item span.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.actions button {
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.actions button:first-child {
+  background-color: #28a745;
+  color: white;
+}
+
+.actions button:last-child {
+  background-color: #dc3545;
+  color: white;
+}
+
+.empty {
+  text-align: center;
+  color: #888;
+  font-style: italic;
+}
